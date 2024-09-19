@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1060px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+.main{
+    background-image: url(../img/girl.png);
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+}
+.about{
+    &__wrap{
+        height: 700px;
+        background-color: #5d62b6;
+        border-radius: 40px;
+        margin-top: -80px;
+        position: relative;
+    }
+    &__dots{
+        position: absolute;
+        right: -70px;
+        top: -110px;
+    }
+    &__dog{
+        border-radius: 40px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -120px;
+        z-index: 1;
+        height: 420px;
+    }
+    &__blob{
+        position: absolute;
+        bottom: -160px;
+        
+    }
+}
